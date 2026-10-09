@@ -10,7 +10,12 @@ namespace ProgramacaoComGit
     {
         static void Main(string[] args)
         {
-            
+            aluno a1 = new aluno();
+            a1.nome = "maria";
+            a1.anoNascimento = 1993;
+
+            Console.WriteLine("a idade da "+a1.nome+" é: "+a1.calcularIdade());
+            Console.ReadKey();
         }
     }
 }
